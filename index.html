@@ -9,15 +9,17 @@
 
 </head>
 <body>
-    <h1>E-Voting</h1>
-
-    <label for="name">Voter ID:</label>
-
-    <input type="text" id="voter_id" name="voter_id" />
     
     <div class="container">
 
-        <form id="votingForm">
+        <div class="child">
+            <h1>E-Voting</h1>
+
+            <label for="name">Voter ID:</label>
+
+            <input type="text" id="voter_id" name="voter_id" />
+
+            <form id="votingForm">
             <label for="candidateId">Select Candidate:</label>
             <select id="candidateId" name="candidateId">
                 <!-- Populate this dynamically with candidate options -->
@@ -27,6 +29,9 @@
     
         <h2>Winner: <span id="winner"></span></h2>
 
+
+        </div>    
+        
     </div>
     
 

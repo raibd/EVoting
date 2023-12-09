@@ -1,5 +1,4 @@
 
-
 .child { 
     width: 250px;
     height: 200px;
@@ -9,7 +8,7 @@
     margin: 25px;
     width: 350px;
     height: 200px;
-    outline: dashed 4px black; 
+    outline: dashed 2px black; 
     display: flex;
     justify-content: center;
     align-items: center;
